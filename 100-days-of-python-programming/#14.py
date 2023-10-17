@@ -3,7 +3,15 @@
 a = int(input("Enter Marks: "))
 print("Your Marks are", a)
 
-if(a>40):
-    print("Dumbass you failed")
+if(a>90):
+    print("Grade A")
+elif(a>80):
+    print("Grade B")
+elif(a>70):
+    print("Grade C")
+elif(a>60):
+    print("Grade D")
+elif(a>50):
+    print("Grade E")
 else:
-    print("Dumbass you failed")
+    print("Failed ")
