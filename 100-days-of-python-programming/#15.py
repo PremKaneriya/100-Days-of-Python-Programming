@@ -1,14 +1,14 @@
-# a good morning excersice
+import time
+timelamp = time.strftime('%H:%M:%S')
+print(timelamp)
 
-time = int(input("Please Sir Enter Present Time: "))
-print("Your Office time is", time, "Thank You Sir")
+timelamp = time.strftime('%H')
+print("Your Hour is", timelamp)
 
-if(time > 8):
-    print("Good Morning Sir")
-elif(time > 12):
-    print("Good Afternoon Sir")
-elif(time < 6):
-    print("Good Evening Sir")
-else:
-    print("Good Night Sir")
+timelamp = time.strftime('%M')
+print("Your Minute is", timelamp)
 
+timelamp = time.strftime('%S')
+print("Your Second is", timelamp)
+
+print("Thank you sir for watching time 'Apka Din Subh Rahe'")
