@@ -1,13 +1,9 @@
-def fruit_color(fruit):
-    match fruit:
-        case "apple":
-            return "red"
-        case "banana":
-            return "yellow"
-        case "grape":
-            return "purple"
-        case _:
-            return "unknown"
+vote = int(input("Enter your age: "))
 
-result = fruit_color("banana")
-print(result)  # Output will be "yellow"
+match vote:
+    case _ if (vote >= 18):
+        print("you are Eligible fo vote")
+    case _ if (vote < 18):
+        print("you are not Eligible fo vote")
+    case _:
+        print("Invalid input")
