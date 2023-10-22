@@ -1,12 +1,12 @@
 #String slicing
 
-animal = "Girrafe"
-len1 = len(animal)
-print("Girrafe in numbers is =", len1)
+name = "ElonMusk"
+len1 = len(name)
+print("ElonMusk in numbers is =", len1)
 
-print(animal[:5])
+print(name[:5])
 
-print(animal[:-4])
+print(name[:-4])
 
 num = "12345"
 for n in num:
